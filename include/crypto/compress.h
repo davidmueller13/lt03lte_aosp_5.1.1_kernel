@@ -97,7 +97,7 @@ static inline struct pcomp_alg *crypto_pcomp_alg(struct crypto_pcomp *tfm)
 }
 
 static inline int crypto_compress_setup(struct crypto_pcomp *tfm,
-					void *params, unsigned int len)
+					const void *params, unsigned int len)
 {
 	return crypto_pcomp_alg(tfm)->compress_setup(tfm, params, len);
 }
