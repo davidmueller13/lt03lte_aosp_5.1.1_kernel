@@ -4377,3 +4377,9 @@ config MUIC_RESET_PIN_ENABLE
                 This request is from H/W team
 		In case of mUIC voltage drop, mUIC will be reset
 endif
+
+config ALUCARD_HOTPLUG
+	bool "Enable alucard-hotplug cpu hotplug driver"
+	default y
+	help
+	  Generic Alucard-hotplug cpu hotplug driver for ARM SOCs
