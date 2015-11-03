@@ -1,4 +1,4 @@
-export CROSS_COMPILE=/home/david/toolchain/bin/arm-eabi-
+export CROSS_COMPILE=/home/david/gcc6/bin/arm-eabi-
 export ARCH=arm
 make build_defconfig
 make -j14
